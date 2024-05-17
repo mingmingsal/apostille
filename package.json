@@ -6,7 +6,7 @@
   "homepage": "https://mingmingsal.github.io/apostille/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",npm 
+    "build": "vite build", 
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
