@@ -15,6 +15,7 @@ const CountryDisplay = ({country}) => {
                     {agency.fax && <CountryDisplayListItem description={'Fax Number/s'} listItem={agency.fax} country={country}/>}
                     {agency.email && <CountryDisplayListItem description={'Email/s'} listItem={agency.email} country={country}/>}
                     {agency.website && <CountryDisplayListItem description={'Website/s'} listItem={agency.website} country={country} clickable={true}/>}
+                    {agency.contacts && <CountryDisplayListItem description={'Contact/s'} listItem={agency.contacts} country={country} />}
                   </tbody>
                 </table>
               );
@@ -30,6 +31,7 @@ const CountryDisplay = ({country}) => {
                     {lgu.authority && <CountryDisplayListItem description={'Authority/s'} listItem={lgu.authority} country={country}/>}
                     {lgu.email && <CountryDisplayListItem description={'Email/s'} listItem={lgu.email} country={country}/>}
                     {lgu.website && <CountryDisplayListItem description={'Website/s'} listItem={lgu.website} country={country} clickable={true}/>}
+                    {lgu.contacts && <CountryDisplayListItem description={'Contact/s'} listItem={lgu.contacts} country={country} />}
                   </tbody>
                 </table>
               );

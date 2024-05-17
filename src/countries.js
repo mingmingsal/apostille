@@ -65,7 +65,7 @@ export const countries = {
             "fax":["+44 1908 716 911"],
             "email": ["Legalisation@fcdo.gov.uk","Legalisationeapostille@fcdo.gov.uk"],
             "website": ["https://www.gov.uk/get-document-legalised"],
-            "contacts ": ["	Mr Chris Ward"]
+            "contacts": ["Mr Chris Ward"]
         }
     ],
     "lgu":[
