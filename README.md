@@ -1,8 +1,34 @@
-# React + Vite
+This is a website that shows Authorities that may certify an apostille (a document authentication) for that country.
+Main reference: https://www.hcch.net/en/instruments/conventions/authorities1/?cid=41
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Format for countries in JSON:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"country_name":{
+    "national_agencies":[
+        {
+            "name":"name",
+            "address": "physical address",
+            "tel":["tel1","tel2"],
+            "fax":["fax1","fax2"],
+            "email": ["email1","email2"],
+            "website": ["web1","web2"],
+            "contacts ": ["contact1","contact2"]
+        },
+        {
+            "name":"agency2",
+            ...
+        }
+    ],
+    "lgu":[
+        {
+            "name":"state name",
+            "authority": "person/office in charge",
+            "address": "physical address",
+            "tel":["tel1"],
+            "fax":["fax1"],
+            "email": ["email1"],
+            "website": ["web1"],
+            "contacts": ["contact1"]
+        },
+    ]
+}
