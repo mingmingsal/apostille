@@ -105,10 +105,13 @@ h3 {
 }
 header{
   margin-top: 2rem;
-  font-family:'Oswald','Roboto',sans-serif;
+  text-align: center;
+  
+}
+header > h2 {
   font-size: 2rem;
   font-weight: bolder;
-  text-align: center;
+  font-family:'Oswald','Roboto',sans-serif;
 }
 @media only screen and (max-width: 600px) {
   caption {

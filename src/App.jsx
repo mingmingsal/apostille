@@ -11,9 +11,10 @@ function App() {
   return (
     <>
       <header>
-        <p>Apostille Finder</p>
+        <h2>Apostille Finder</h2>
+        {!selectedCountry && <p><i>Find all Competent Authorities for Apostille Certifications.</i></p>}
+        
       </header>
-      {!selectedCountry && <p><i>Find all Competent Authorities for Apostille Certifications.</i></p>}
       <select onChange={(e) => chooseCountry(e)}>
         <option>Choose Country...</option>
         {Object.keys(countries).map((country) => {
