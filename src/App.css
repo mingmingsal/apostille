@@ -108,6 +108,7 @@ header{
   font-family:'Oswald','Roboto',sans-serif;
   font-size: 2rem;
   font-weight: bolder;
+  text-align: center;
 }
 @media only screen and (max-width: 600px) {
   caption {
