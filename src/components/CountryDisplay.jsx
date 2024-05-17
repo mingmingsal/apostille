@@ -1,4 +1,5 @@
 import { CountryDisplayListItem } from "./CountryDisplayListItem";
+import CountryCaptionDisplay from "./CountryCaptionDisplay";
 const CountryDisplay = ({country}) => {
   return (
     <div className="country">
@@ -7,7 +8,7 @@ const CountryDisplay = ({country}) => {
             {country.national_agencies.map((agency) => {
               return (
                 <table key={`${country.name}_${agency.name}`}>
-                  <caption>{agency.name}</caption>
+                  <CountryCaptionDisplay word={agency.name} />
                   <tbody>
                     {agency.address && <CountryDisplayListItem description={'Address/es'} listItem={agency.address} country={country}/>}
                     {agency.tel && <CountryDisplayListItem description={'Telephone Number/s'} listItem={agency.tel} country={country}/>}
@@ -22,7 +23,7 @@ const CountryDisplay = ({country}) => {
             {country.lgu.map((lgu) => {
               return (
                 <table key={`${country.name}_${lgu.name}`}>
-                  <caption>{lgu.name}</caption>
+                  <CountryCaptionDisplay word={lgu.name} />
                   <tbody>
                   {lgu.address && <CountryDisplayListItem description={'Address/es'} listItem={lgu.address} country={country}/>}
                     {lgu.tel && <CountryDisplayListItem description={'Telephone Number/s'} listItem={lgu.tel} country={country}/>}

@@ -5,12 +5,13 @@ import { useState } from "react";
 function App() {
   const [selectedCountry,setSelectedCountry] = useState(null);
   function chooseCountry(e){
-    setSelectedCountry(e.target.value);
+    if(!Object.hasOwn(countries,e.target.value)) setSelectedCountry(null);
+    else setSelectedCountry(e.target.value);
   }
   return (
     <>
       <select onChange={(e)=>chooseCountry(e)}>
-        <option></option>
+        <option>Choose Country...</option>
       {
       Object.keys(countries).map((country) => {
         console.log(country);

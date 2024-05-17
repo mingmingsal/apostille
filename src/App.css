@@ -3,11 +3,19 @@
   padding: 0px;
   margin: 0px;
 }
+html {
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 table,th,td {
   text-align: center;
-  border: 1px solid black;
-  
-  text-wrap: wrap;
+  font-size: 1rem;
+}
+tr:nth-child(even){
+  background-color: #EFEFEF;
+}
+tr:nth-child(odd){
+  background-color: white;
 }
 #root{
   min-height: 100vh;
@@ -15,26 +23,43 @@ table,th,td {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(to right, #5abf9a 0,#57e4c6,#76d0e2 100%);
 }
 body{
   min-height: 100vh;
   width: 100vw;
+  
 }
 .country table caption {
   text-align: left;
 }
 th{
-  width: 20%;
+  width: 30%;
+  
 }
 td{
   text-align: left;
   padding-left: 1rem;
   text-wrap: wrap;
+  
+  
+}
+a {
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+    margin: 0.15rem 0rem;
 }
 table{
-  width: 80%;
+  width: 100%;
+  max-width: 1280px;
   table-layout: fixed;
   word-wrap: break-word;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 5px;
 }
 .countryList{
   margin: auto;
@@ -62,7 +87,17 @@ select {
 }
 caption{
   font-size: 1.5rem;
+  background-color: #142d4c;
+  color: #ececec;
+  white-space: pre-line;
+  padding-left: 2rem;
 }
 h3 {
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  caption {
+    font-size: 1rem;
+  }
 }

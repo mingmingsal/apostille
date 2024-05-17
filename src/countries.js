@@ -4,7 +4,7 @@ export const countries = {
     national_agencies: [
       {
         name:
-          "Acting Authentication Officer and Assistant Authentication Officer, United States Department of State.",
+          "	Authentication Officer, Acting Authentication Officer and Assistant Authentication Officer, United States Department of State",
         address:
           "518 23rd Street NW, WASHINGTON, DC 20520 United States of America",
         tel: ["+1 (202) 485-8000"],
@@ -59,7 +59,7 @@ export const countries = {
   "United Kingdom":{
     "national_agencies":[
         {
-            "name":"Foreign, Commonwealth and Development Office, The Legalisation Office",
+            "name":"	The Legalisation Office, Foreign, Commonwealth and Development Office, United Kingdom",
             "address": "The Legalisation Office, Foreign, Commonwealth and Development Office, United Kingdom",
             "tel":["+44 3700 002 244"],
             "fax":["+44 1908 716 911"],
