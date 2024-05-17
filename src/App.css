@@ -4,6 +4,15 @@ table,th,td {
   
   text-wrap: wrap;
 }
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  min-height: 100vh;
+}
 .country table caption {
   text-align: left;
 }
@@ -34,6 +43,7 @@ table{
 select {
   margin: auto;
   width: 10%;
+  min-width: 150px;
   padding: 10px;
   display: block;
   text-align: center;
