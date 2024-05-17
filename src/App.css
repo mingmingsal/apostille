@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 table,th,td {
   text-align: center;
   border: 1px solid black;
@@ -13,6 +18,7 @@ table,th,td {
 }
 body{
   min-height: 100vh;
+  width: 100vw;
 }
 .country table caption {
   text-align: left;
@@ -23,21 +29,23 @@ th{
 td{
   text-align: left;
   padding-left: 1rem;
+  text-wrap: wrap;
 }
 table{
   width: 80%;
-
+  table-layout: fixed;
+  word-wrap: break-word;
 }
 .countryList{
   margin: auto;
-  width: 60%;
+  width: 100%;
   padding: 10px;
   min-width: 200px;
   
 }
 .country{
   padding: 10px;
-  min-width: 200px;
+  width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
