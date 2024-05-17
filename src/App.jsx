@@ -28,7 +28,7 @@ function App() {
             key={countries[selectedCountry]}
             country={countries[selectedCountry]}
           />
-          ;
+          
         </div>
       )}
     </>
