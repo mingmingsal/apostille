@@ -21,7 +21,7 @@ Format for countries in JSON:
     ],
     "lgu":[
         {
-            "name":"state name",
+            "name":"statename",
             "authority": "person/office in charge",
             "address": "physical address",
             "tel":["tel1"],
@@ -29,6 +29,11 @@ Format for countries in JSON:
             "email": ["email1"],
             "website": ["web1"],
             "contacts": ["contact1"]
+        },
+        {
+            "name":"statename",
+            "authority": "person_in_charge",
+            "website": ["web1"],
         },
     ]
 }

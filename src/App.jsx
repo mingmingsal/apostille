@@ -2,6 +2,7 @@ import { countries } from "./countries";
 import "./App.css";
 import CountryDisplay from "./components/CountryDisplay";
 import { useState, useRef } from "react";
+import ChooseElement from "./components/ChooseElement";
 function App() {
   const [selectedCountry, setSelectedCountry] = useState(null);
   const top = useRef(null);
@@ -19,13 +20,7 @@ function App() {
         {!selectedCountry && <p><i>Find Competent Authorities for Apostille Certifications.</i></p>}
         
       </header>
-      <select onChange={(e) => chooseCountry(e)}>
-        <option>Choose Country...</option>
-        {Object.keys(countries).map((country) => {
-          console.log(country);
-          return <option key={country}>{country}</option>;
-        })}
-      </select>
+      <ChooseElement countries={countries} callbackFn={chooseCountry} />
 
       {selectedCountry && (
         <>

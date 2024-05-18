@@ -54,6 +54,78 @@ export const countries = {
         authority: "Secretary of State; Deputy Secretary of State",
         website: ["https://www.coloradosos.gov/pubs/apostilles/home.html"],
       },
+      {
+        name: "Conneticut",
+        authority: "Secretary of State; Deputy Secretary of State; Director, Commercial Recording Division",
+        website: ["https://portal.ct.gov/sots/legislative-services/authentication-of-documents-and-the-apostille"],
+      },
+      {
+        name: "Delaware",
+        authority: "Secretary of State, Division of Corporations; Acting Secretary of State; ",
+        website: ["https://corp.delaware.gov/apost_info/","https://icis.corp.delaware.gov/ecorp2/services/validate"],
+      },
+      {
+        name: "Florida",
+        authority: "Secretary of State",
+        website: ["https://dos.fl.gov/sunbiz/other-services/apostille-notarial-certification/"],
+      },
+      {
+        "name":"Georgia",
+        "authority": "Georgia Superior Courts Clerks' Cooperative Authority",
+        "address": "1875 Century Blvd. Ste. 100, Atlanta, GA, 30345 404-327-6023",
+        "website": ["https://www.gsccca.org/notary-and-apostilles/apostilles/general-apostille-information"],
+        "contacts": [" Peter Keesom"]
+    },
+    {
+        "name":"Hawaii",
+        "authority": "Lieutenant Governor of the State of Hawaii",
+        "website": ["https://ltgov.hawaii.gov/apostilles-and-certifications-faqs/"],
+    },
+    {
+        "name":"Idaho",
+        "authority": "Secretary of State; Chief Deputy Secretary of State; Deputy Secretary of State; Notary Public Clerk",
+        "website": ["http://www.sos.idaho.gov/notary/apostill.htm"],
+    },
+    {
+        "name":"Illinois",
+        "authority": "Secretary of State; Assistant Secretary of State; Deputy Secretary of State",
+        "website": ["https://cookcountyclerk.com/vitalrecords/authenticatingnotaries/pages/default.aspx"],
+    },
+    {
+        "name":"Indiana",
+        "authority": "Secretary of State; Deputy Secretary of State",
+        "website": ["https://www.in.gov/sos/business/apostilleauthentication/"],
+    },
+    {
+        "name":"Iowa",
+        "authority": "Secretary of State; Deputy Secretary of State",
+        "website": ["https://sos.iowa.gov/notaries/about.html"],
+    },
+    {
+        "name":"Kansas",
+        "authority": "Secretary of State; Assistant Secretary of State; any Deputy Assistant Secretary of State",
+        "website": ["https://sos.ks.gov/general-services/apostilles-authentications.html"],
+    },
+    {
+        "name":"Kentucky",
+        "authority": "Secretary of State; Assistant Secretary of State",
+        "website": ["https://www.sos.ky.gov/bus/apostilles/Pages/default.aspx"],
+    },
+    {
+        "name":"Louisiana",
+        "authority": "Secretary of State",
+        "website": ["https://www.sos.la.gov/NotaryAndCertifications/Certifications/AuthenticateSignaturesOfLouisianaOfficials/Pages/default.aspx"],
+    },
+    {
+        "name":"Maine",
+        "authority": "Secretary of State; Deputy Secretary of State",
+        "website": ["https://www.maine.gov/sos/cec/apostilles/"],
+    },
+    {
+        "name":"Maryland",
+        "authority": "Secretary of State",
+        "website": ["https://sos.maryland.gov/Certifications/Pages/default.aspx"],
+    },
     ],
   },
   "United Kingdom":{
