@@ -11,8 +11,6 @@ const CountryDisplay = ({ country }) => {
   }, [country.lgu]);
 
   function jumpTo(e) {
-    console.log(e.target.value);
-    console.log(goToLGU.current);
     goToLGU.current[e.target.value].scrollIntoView(true);
   }
   return (
