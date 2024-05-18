@@ -57,6 +57,7 @@ export const countries = {
     ],
   },
   "United Kingdom":{
+    name: "United Kingdom",
     "national_agencies":[
         {
             "name":"	The Legalisation Office, Foreign, Commonwealth and Development Office, United Kingdom",
