@@ -149,6 +149,189 @@ export const countries = {
         authority: "Secretary of State",
         website: ["https://sos.maryland.gov/Certifications/Pages/default.aspx"],
       },
+      {
+        name: "Massachusetts",
+        authority: "Secretary of the Commonwealth of Massachusetts",
+        website: ["www.sec.state.ma.us/pre/precom/comidx.htm"],
+      },
+      {
+        name: "Michigan",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: [
+          "https://www.michigan.gov/sos/all-services/document-authentication-and-apostille",
+        ],
+      },
+      {
+        name: "Minnesota",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: ["http://www.sos.state.mn.us/notary-apostille/"],
+      },
+      {
+        name: "Mississippi",
+        authority: "Secretary of State; any Assistant Secretary of State",
+        website: [
+          "https://www.sos.ms.gov/business-services/apostilles-authentications",
+        ],
+      },
+      {
+        name: "Missouri",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: ["https://s1.sos.mo.gov/business/notary/notary/certify"],
+      },
+      {
+        name: "Montana",
+        authority:
+          "Secretary of State; Chief Deputy Secretary of State; Government Affairs Bureau Chief",
+        website: [
+          "https://biz.sosmt.gov/apostille",
+          "https://sosmt.gov/apostilles-authentications/apostilles/",
+        ],
+      },
+      {
+        name: "Nebraska",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: [
+          "https://sos.nebraska.gov/business-services/apostilles-and-authentications",
+        ],
+      },
+      {
+        name: "Nevada",
+        authority:
+          "Secretary of State; Chief Deputy Secretary of State; Deputy Secretary of State",
+        website: ["https://www.nvsos.gov/sos/businesses/apostille"],
+      },
+      {
+        name: "New Hampshire",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: ["https://www.sos.nh.gov/apostilles-and-certificates"],
+      },
+      {
+        name: "New Jersey",
+        authority: "Secretary of State; Assistant Secretary of State",
+        website: ["https://www.nj.gov/treasury/revenue/apostilles.shtml"],
+      },
+      {
+        name: "New Mexico",
+        authority: "Secretary of State",
+        website: [
+          "https://www.sos.nm.gov/notary-and-apostille/apostille-authentications/",
+        ],
+      },
+      {
+        name: "New York",
+        authority:
+          "Secretary of State; Executive Deputy Secretary of State; any Deputy Secretary of State; any Special Deputy Secretary of State",
+        website: ["https://dos.ny.gov/apostille-or-certificate-authentication"],
+      },
+      {
+        name: "North Carolina",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: [
+          "https://www.sosnc.gov/divisions/authentications/Apostille_Certificates",
+        ],
+      },
+      {
+        name: "Ohio",
+        authority: "Secretary of State; Assistant Secretary of State",
+        website: ["https://www.ohiosos.gov/records/apostilles-certifications/"],
+      },
+      {
+        name: "Oklahoma",
+        authority: "Oklahoma Secretary of State",
+        website: ["https://www.sos.ok.gov/business/apostilles.aspx"],
+      },
+      {
+        name: "North Dakota",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: ["https://www.sos.nd.gov/notary-apostille"],
+      },
+      {
+        name: "Oregon",
+        authority: "Secretary of State",
+        website: [
+          "https://sos.oregon.gov/business/Pages/how-to-get-authentication-apostille.aspx",
+        ],
+      },
+      {
+        name: "Pennsylvania",
+        authority:
+          "Secretary of the Commonwealth; any Deputy Secretary of the Commonwealth; Commissioner of the Bureau of Commissions, Elections and Legislation",
+        website: [
+          "https://www.dos.pa.gov/OtherServices/Certifications_Apostilles/Pages/default.aspx#.VSZ6dfDD-KU",
+        ],
+      },
+      {
+        name: "Rhode Island",
+        authority:
+          "Secretary of State; First Deputy Secretary of State; Second Deputy Secretary of State",
+        website: [
+          "https://www.sos.ri.gov/Divisions/NotaryPublic/Apostilles/GetApostille",
+        ],
+      },
+      {
+        name: "South Carolina",
+        authority: "Secretary of State",
+        website: ["https://sos.sc.gov/services-and-filings/apostilles"],
+      },
+      {
+        name: "South Dakota",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: [
+          "https://sdsos.gov/general-services/apostilles-authentications.aspx",
+        ],
+      },
+      {
+        name: "Tennessee",
+        authority: "Secretary of State",
+        website: ["https://sos.tn.gov/businesses/guides/apostille-authentication-guide"],
+      },
+      {
+        name: "Texas",
+        authority: "Secretary of State; Deputy Secretary of State; Director",
+        website: ["https://www.sos.state.tx.us/authinfo.shtml"],
+      },
+      {
+        name: "Utah",
+        authority: "Lieutenant Governor; Deputy Lieutenant Governor; Administrative Assistant",
+        website: ["https://authentications.utah.gov/process-from-home-page/"],
+      },
+      {
+        name: "Vermont",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: ["https://sos.vermont.gov/secretary-of-state-services/apostille-or-authentication/"],
+      },
+      {
+        name: "Virginia",
+        authority: "Secretary of the Commonwealth; Chief Clerk, Office of the Secretary of the Commonwealth",
+        website: ["https://commonwealth.virginia.gov/official-documents/authentications/"],
+      },
+      {
+        name: "Washington (State)",
+        authority: "Secretary of State; Assistant Secretary of State; Director, Department of Licensing",
+        website: ["https://www.sos.wa.gov/corporations-charities/apostilles-program/how-obtain-apostille-or-certificate-authentication"],
+      },
+      {
+        name: "West Virginia",
+        authority: "Secretary of State; Under Secretary of State; any Deputy Secretary of State",
+        website: ["https://sos.wv.gov/FormSearch/Business/Apostilles/AC-1.pdf","https://apps.sos.wv.gov/business/apostilles/"],
+      },
+      {
+        name: "Wisconsin",
+        authority: "Office of the Secretary of State: Secretary and the Administrator of the Government Records Division",
+        email: ["apostilles@wisconsin.gov"],
+        tel:["608-266-8888 ext. 5"],
+        website: ["https://sos.wi.gov/Pages/Apostilles/howto.aspx"],
+      },
+      {
+        name: "Wyoming",
+        authority: "Secretary of State; Deputy Secretary of State",
+        website: ["https://sos.wyo.gov/Services/Authentication.aspx"],
+      },
+      {
+        name: "District of Columbia (Washington, D.C.)",
+        authority: "Executive Secretary",
+        website: ["https://os.dc.gov/service/notary-and-authentication-services"],
+      },
     ],
   },
   "United Kingdom": {
@@ -273,16 +456,54 @@ export const countries = {
       },
     ],
   },
-  "Japan":{
-    "national_agencies":[
-        {
-            "name":"The Ministry of Foreign Affairs in Tokyo",
-            "address": "Kasumigaseki 2-2-1, Chiyoda-ku, TOKYO 100-8919",
-            "tel":["+81 (3) 3580-3311"],
-            "website": ["http://www.mofa.go.jp/","https://www.mofa.go.jp/ca/cs/page22e_000416.html"],
-        },
-        
+  Japan: {
+    name: "Japan",
+    national_agencies: [
+      {
+        name: "The Ministry of Foreign Affairs in Tokyo",
+        address: "Kasumigaseki 2-2-1, Chiyoda-ku, TOKYO 100-8919",
+        tel: ["+81 (3) 3580-3311"],
+        website: [
+          "http://www.mofa.go.jp/",
+          "https://www.mofa.go.jp/ca/cs/page22e_000416.html",
+        ],
+      },
     ],
-    
-}
+  },
+  "Saudi Arabia": {
+    name:"Saudi Arabia / Dubai",
+    national_agencies: [
+      {
+        name: "The Minister of Foreign Affairs",
+        address: "The Minister of Foreign Affairs \n Post address: 12735",
+        tel: ["+966114067777 (Ext: 5190)"],
+        fax: ["+966114414588"],
+        email: ["ccc@mofa.gov.sa"],
+        website: [
+          "https://services.mofa.gov.sa/ratification/apostilleratification/search",
+        ],
+      },
+    ],
+  },
+  Australia: {
+    name:"Australia",
+    national_agencies: [
+      {
+        name: "The Secretary to the Department of Foreign Affairs and Trade of the Commonwealth of Australia",
+        address: "R.G. Casey Building, John McEwen Crescent, Barton, ACT 0221",
+        tel: ["+61 (2) 6261 1111"],
+        fax: ["+61 (2) 6261 3111"],
+        website: [
+          "https://www.smartraveller.gov.au/consular-services#notarials",
+        ],
+      },
+      {
+        name: "Australian Embassy in the Philippines",
+        address: "RCBC Plaza, Tower 2, Level 23, 6819 Ayala Avenue, Makati",
+        tel: ["+63 2 7757 8100"],
+        email: ["consular.manila@dfat.gov.au"],
+        website: ["https://philippines.embassy.gov.au/mnla/Notarial.html"],
+      },
+    ],
+  },
 };
