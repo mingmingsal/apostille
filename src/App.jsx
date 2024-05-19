@@ -20,7 +20,7 @@ function App() {
         {!selectedCountry && <p><i>Find Competent Authorities for Apostille Certifications.</i></p>}
         
       </header>
-      <ChooseElement countries={countries} callbackFn={chooseCountry} />
+      <ChooseElement countries={countries} callbackFn={chooseCountry} flavorText='Choose Country...'/>
 
       {selectedCountry && (
         <>

@@ -1,7 +1,7 @@
-const ChooseElement = ({ countries, callbackFn }) => {
+const ChooseElement = ({ countries, callbackFn, flavorText }) => {
   return (
     <select onChange={(e) => callbackFn(e)}>
-      <option>Choose Country...</option>
+      <option>{flavorText}</option>
       {Array.isArray(countries) &&
         countries.map((country, index) => {
           return <option key={country.name} value={index}>{country.name}</option>;
