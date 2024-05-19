@@ -1,12 +1,12 @@
 import CountryCaptionDisplay from "./CountryCaptionDisplay";
 import { CountryDisplayListItem } from "./CountryDisplayListItem";
-function RenderList({ countryPart, country }) {
+function RenderList({ countryPart, country, goTo }) {
     if (countryPart == null) return null;
     return (
       <>
-        {countryPart.map((agency) => {
+        {countryPart.map((agency, index) => {
           return (
-            <table key={`${country.name}_${agency.name}`}>
+            <table  ref={(el) => (goTo.current[index] = el)} key={`${country.name}_${agency.name}`}>
               <CountryCaptionDisplay word={agency.name} />
               <tbody>
                 {agency.address && (
