@@ -1,23 +1,25 @@
 import { useRef, useEffect } from "react";
 import ChooseElement from "./ChooseElement";
 import RenderList from "./RenderList";
+import CheckifValid from "./CheckifValid";
 const CountryDisplay = ({ country }) => {
   const goToLGU = useRef([]);
   const goToAgency = useRef([]);
+
   useEffect(() => {
     if (country.lgu == null) return;
     goToLGU.current = goToLGU.current.slice(0, country.lgu.length);
+
+    if (country.national_agencies == null) return;
     goToAgency.current = goToAgency.current.slice(0, country.national_agencies.length);
+
   }, [country.lgu, country.national_agencies]);
 
   function jumpTo(e, goTo) {
     if (goTo.current[e.target.value] === undefined) return;
     goTo.current[e.target.value].scrollIntoView(true);
   }
-  function CheckifValid({ e, children }) {
-    if (e == null) return null;
-    return children;
-  }
+  
   return (
     <div className="country">
       <h2 className="countryTitle">{country.name}</h2>

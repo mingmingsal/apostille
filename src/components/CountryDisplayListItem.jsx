@@ -12,7 +12,13 @@ export const CountryDisplayListItem = ({
           {listItem.map((item, index) => {
             return (
               <p key={`${country}${listItem}${description}${index}`}>
-                {clickable ? <a target="_blank" href={item}>{item}</a> :<>{item}</>}
+                {clickable ? (
+                  <a target="_blank" href={item}>
+                    {item}
+                  </a>
+                ) : (
+                  <>{item}</>
+                )}
               </p>
             );
           })}
@@ -20,7 +26,13 @@ export const CountryDisplayListItem = ({
       )}
       {typeof listItem === "string" && (
         <td>
-          {clickable ? <a target="_blank" href={listItem}>{listItem}</a> : <p>{listItem}</p>}
+          {clickable ? (
+            <a target="_blank" href={listItem}>
+              {listItem}
+            </a>
+          ) : (
+            <p>{listItem}</p>
+          )}
         </td>
       )}
     </tr>
